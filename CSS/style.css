@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgb(50, 50, 51);
+}
+.all_cv{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    height: 1070px;
+    margin: 0 auto;
+}
+.left_side_cv{
+    background: #506efd;
+    width: 35%;
+}
+ img{
+    width: 100%;
+
+}
+ .left_side_cv{
+     color: #eaeaeb;
+ }
+.right_side_cv{
+    width: 55%;
+    background-color: #eaeaeb;
+}
+.right_side_cv h1{
+    color: #506efd;
+}
+hr {
+    margin: 0px 20px;
+    padding: 2px;
+    border: 0px;
+    background: #5bdee5;
+}
+
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 15px;
+}
+h1,h2,h3{
+    font-family: 'CAT Neuzeit', sans-serif;
+}
+h1,h2 {
+    margin: 30px 30px;
+}
+.info_block{
+    margin: 50px 20px;
+}
+.info_block h3{
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 20px 0px;
+}
+
+
+.info_block p{
+    max-width: 300px;
+
+}
+ul {
+    list-style-position: inside;
+}
+p, li {
+    font-size: 12.5px;
+    font-family: 'Cousine', sans-serif;
+}
+.education_block {
+    color: #506efd;
+}
+.info_block, .soft_skills, .hard_skills, .projects_block, .education_block {
+    margin: 10px 20px;
+
+}
+.info_block p, .education_block p {
+    max-width: 400px;
+}
+.projects_block {
+    max-width: 200px;
+    min-width: 195px;
+}
+.about_me_block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.skills_projects_block{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
